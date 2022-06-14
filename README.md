@@ -1,2 +1,4 @@
 # myways-node-eslint
-MyWays Node Eslint
+```
+npm i @myways.ai/node-eslint
+```
