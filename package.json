@@ -1,0 +1,31 @@
+{
+  "name": "@myways.ai/myways-node-eslint",
+  "version": "1.0.0",
+  "description": "MyWays Node Eslint Config",
+  "main": "index.js",
+  "scripts": {
+    "check:all": "npm run check:lint && npm run check:css && npm run check:format",
+    "check:lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
+    "check:lint-quiet": "eslint --quiet --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
+    "check:format": "prettier --ignore-path .gitignore --check \"**/*.{js,jsx,ts,tsx}\"",
+    "fix:lint": "eslint --fix --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
+    "fix:format": "prettier --ignore-path .gitignore --write ."
+  },
+  "peerDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.2"
+  },
+  "author": "MyWays <dev@myways.ai>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyWays-in/myways-node-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MyWays-in/myways-node-eslint/issues"
+  },
+  "homepage": "https://github.com/MyWays-in/myways-node-eslint#readme"
+}
