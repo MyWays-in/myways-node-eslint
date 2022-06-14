@@ -1,10 +1,10 @@
 {
   "name": "@myways.ai/node-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MyWays Node Eslint Config",
   "main": "index.js",
   "scripts": {
-    "check:all": "npm run check:lint && npm run check:css && npm run check:format",
+    "check:all": "npm run check:lint && npm run check:format",
     "check:lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
     "check:lint-quiet": "eslint --quiet --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
     "check:format": "prettier --ignore-path .gitignore --check \"**/*.{js,jsx,ts,tsx}\"",
