@@ -1,6 +1,6 @@
 {
   "name": "@myways.ai/node-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MyWays Node Eslint Config",
   "main": "index.js",
   "scripts": {
